@@ -1,0 +1,254 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F24Q10 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.35\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"57 C:\Users\Nagadharani\Desktop\Kumar\Timer Recset and continue\mcc_test.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"71
+[v _PMD_Initialize PMD_Initialize `(v  1 e 1 0 ]
+"93 C:\Users\Nagadharani\Desktop\Kumar\Timer Recset and continue\mcc_test.X\mcc_generated_files/memory.c
+[v _FLASH_ReadSector FLASH_ReadSector `(v  1 s 1 FLASH_ReadSector ]
+"129
+[v _FLASH_WriteSector FLASH_WriteSector `(v  1 s 1 FLASH_WriteSector ]
+"207
+[v _FLASH_EraseBlock FLASH_EraseBlock `(v  1 e 1 0 ]
+"239
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+"272
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+"55 C:\Users\Nagadharani\Desktop\Kumar\Timer Recset and continue\mcc_test.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"20 C:\Users\Nagadharani\Desktop\Kumar\Timer Recset and continue\mcc_test.X\SwiGO_16A_EDS001.c
+[v _main main `(v  1 e 1 0 ]
+"58
+[v _delay_blink delay_blink `(v  1 e 1 0 ]
+[s S110 . 1 `uc 1 CWGIF 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 NVMIF 1 0 :1:5 
+`uc 1 CRCIF 1 0 :1:6 
+`uc 1 SCANIF 1 0 :1:7 
+]
+"4016 C:\Program Files\Microchip\xc8\v2.35\pic\include\proc\pic18f24q10.h
+[s S116 . 1 `uc 1 CWG1IF 1 0 :1:0 
+]
+[u S118 . 1 `S110 1 . 1 0 `S116 1 . 1 0 ]
+[v _PIR7bits PIR7bits `VES118  1 e 1 @3788 ]
+"4624
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @3795 ]
+"4764
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @3797 ]
+"4916
+[v _OSCEN OSCEN `VEuc  1 e 1 @3799 ]
+"4967
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3800 ]
+"5025
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @3801 ]
+"5196
+[v _PMD0 PMD0 `VEuc  1 e 1 @3804 ]
+"5273
+[v _PMD1 PMD1 `VEuc  1 e 1 @3805 ]
+"5337
+[v _PMD2 PMD2 `VEuc  1 e 1 @3806 ]
+"5382
+[v _PMD3 PMD3 `VEuc  1 e 1 @3807 ]
+"5420
+[v _PMD4 PMD4 `VEuc  1 e 1 @3808 ]
+"5462
+[v _PMD5 PMD5 `VEuc  1 e 1 @3809 ]
+"6724
+[v _INLVLA INLVLA `VEuc  1 e 1 @3848 ]
+"6786
+[v _SLRCONA SLRCONA `VEuc  1 e 1 @3849 ]
+"6848
+[v _ODCONA ODCONA `VEuc  1 e 1 @3850 ]
+"6910
+[v _WPUA WPUA `VEuc  1 e 1 @3851 ]
+"6972
+[v _ANSELA ANSELA `VEuc  1 e 1 @3852 ]
+"7220
+[v _INLVLB INLVLB `VEuc  1 e 1 @3856 ]
+"7282
+[v _SLRCONB SLRCONB `VEuc  1 e 1 @3857 ]
+"7344
+[v _ODCONB ODCONB `VEuc  1 e 1 @3858 ]
+"7406
+[v _WPUB WPUB `VEuc  1 e 1 @3859 ]
+"7468
+[v _ANSELB ANSELB `VEuc  1 e 1 @3860 ]
+"7716
+[v _INLVLC INLVLC `VEuc  1 e 1 @3864 ]
+"7778
+[v _SLRCONC SLRCONC `VEuc  1 e 1 @3865 ]
+"7840
+[v _ODCONC ODCONC `VEuc  1 e 1 @3866 ]
+"7902
+[v _WPUC WPUC `VEuc  1 e 1 @3867 ]
+"7964
+[v _ANSELC ANSELC `VEuc  1 e 1 @3868 ]
+"8089
+[v _INLVLE INLVLE `VEuc  1 e 1 @3877 ]
+"8110
+[v _WPUE WPUE `VEuc  1 e 1 @3880 ]
+"14077
+[v _NVMADRL NVMADRL `VEuc  1 e 1 @3961 ]
+"14147
+[v _NVMADRH NVMADRH `VEuc  1 e 1 @3962 ]
+"14217
+[v _NVMADRU NVMADRU `VEuc  1 e 1 @3963 ]
+"14282
+[v _NVMDATL NVMDATL `VEuc  1 e 1 @3964 ]
+"14352
+[v _NVMDATH NVMDATH `VEuc  1 e 1 @3965 ]
+[s S87 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NVMERR 1 0 :1:4 
+`uc 1 . 1 0 :2:5 
+`uc 1 NVMEN 1 0 :1:7 
+]
+"14435
+[u S92 . 1 `S87 1 . 1 0 ]
+[v _NVMCON0bits NVMCON0bits `VES92  1 e 1 @3967 ]
+[s S31 . 1 `uc 1 RD 1 0 :1:0 
+`uc 1 SECRD 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 WR 1 0 :1:4 
+`uc 1 SECWR 1 0 :1:5 
+`uc 1 SECER 1 0 :1:6 
+]
+"14465
+[u S38 . 1 `S31 1 . 1 0 ]
+[v _NVMCON1bits NVMCON1bits `VES38  1 e 1 @3968 ]
+"14495
+[v _NVMCON2 NVMCON2 `VEuc  1 e 1 @3969 ]
+"14515
+[v _LATA LATA `VEuc  1 e 1 @3970 ]
+"14648
+[v _LATB LATB `VEuc  1 e 1 @3971 ]
+"14781
+[v _LATC LATC `VEuc  1 e 1 @3972 ]
+"14914
+[v _TRISA TRISA `VEuc  1 e 1 @3975 ]
+"15036
+[v _TRISB TRISB `VEuc  1 e 1 @3976 ]
+"15158
+[v _TRISC TRISC `VEuc  1 e 1 @3977 ]
+"15368
+[v _PORTB PORTB `VEuc  1 e 1 @3981 ]
+"15439
+[v _PORTC PORTC `VEuc  1 e 1 @3982 ]
+[s S50 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"25408
+[s S58 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S62 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S66 . 1 `S50 1 . 1 0 `S58 1 . 1 0 `S62 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES66  1 e 1 @4082 ]
+"25510
+[v _TABLAT TABLAT `VEuc  1 e 1 @4085 ]
+"25539
+[v _TBLPTRL TBLPTRL `VEuc  1 e 1 @4086 ]
+"25559
+[v _TBLPTRH TBLPTRH `VEuc  1 e 1 @4087 ]
+"25579
+[v _TBLPTRU TBLPTRU `VEuc  1 e 1 @4088 ]
+"29374
+[v _RB1 RB1 `VEb  1 e 0 @31849 ]
+"29392
+[v _RB2 RB2 `VEb  1 e 0 @31850 ]
+"29410
+[v _RB3 RB3 `VEb  1 e 0 @31851 ]
+"29428
+[v _RB4 RB4 `VEb  1 e 0 @31852 ]
+"29500
+[v _RC0 RC0 `VEb  1 e 0 @31856 ]
+"29518
+[v _RC1 RC1 `VEb  1 e 0 @31857 ]
+"29545
+[v _RC2 RC2 `VEb  1 e 0 @31858 ]
+"29563
+[v _RC3 RC3 `VEb  1 e 0 @31859 ]
+"29581
+[v _RC4 RC4 `VEb  1 e 0 @31860 ]
+"159 C:\Users\Nagadharani\Desktop\Kumar\Timer Recset and continue\mcc_test.X\mcc_generated_files/memory.c
+[v _sectorRAM sectorRAM `uc  1 e 1 @1024 ]
+"20 C:\Users\Nagadharani\Desktop\Kumar\Timer Recset and continue\mcc_test.X\SwiGO_16A_EDS001.c
+[v _main main `(v  1 e 1 0 ]
+{
+"28
+[v main@eprom_rem_time eprom_rem_time `i  1 a 2 16 ]
+"29
+[v main@eprom_select_buttom eprom_select_buttom `i  1 a 2 14 ]
+"55
+} 0
+"58
+[v _delay_blink delay_blink `(v  1 e 1 0 ]
+{
+"64
+[v delay_blink@min min `i  1 a 2 8 ]
+"61
+[v delay_blink@temp temp `i  1 a 2 11 ]
+"60
+[v delay_blink@r_temp r_temp `uc  1 a 1 10 ]
+"58
+[v delay_blink@i i `i  1 p 2 3 ]
+[v delay_blink@prt prt `i  1 p 2 5 ]
+"80
+} 0
+"239 C:\Users\Nagadharani\Desktop\Kumar\Timer Recset and continue\mcc_test.X\mcc_generated_files/memory.c
+[v _DATAEE_WriteByte DATAEE_WriteByte `(v  1 e 1 0 ]
+{
+[v DATAEE_WriteByte@bAdd bAdd `uc  1 a 1 wreg ]
+"241
+[v DATAEE_WriteByte@GIEBitValue GIEBitValue `uc  1 a 1 2 ]
+"239
+[v DATAEE_WriteByte@bAdd bAdd `uc  1 a 1 wreg ]
+[v DATAEE_WriteByte@bData bData `uc  1 p 1 0 ]
+"241
+[v DATAEE_WriteByte@bAdd bAdd `uc  1 a 1 1 ]
+"270
+} 0
+"272
+[v _DATAEE_ReadByte DATAEE_ReadByte `(uc  1 e 1 0 ]
+{
+[v DATAEE_ReadByte@bAdd bAdd `uc  1 a 1 wreg ]
+[v DATAEE_ReadByte@bAdd bAdd `uc  1 a 1 wreg ]
+"275
+[v DATAEE_ReadByte@bAdd bAdd `uc  1 a 1 0 ]
+"286
+} 0
